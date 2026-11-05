@@ -1,0 +1,6 @@
+packages:
+  - packages/*
+
+# DSH 按绝对路径加载插件，插件里的 @deepseek-ai/* 要和宿主解析到同一份代码；
+# 平铺安装与 npm 布局一致，dsh-tavern 也这样配置。
+nodeLinker: hoisted
