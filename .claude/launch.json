@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "casebook-fake",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/web.ts", "--fake"],
+      "port": 3180
+    },
+    {
+      "name": "casebook",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/web.ts"],
+      "port": 3180
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+// 领域层入口：纯逻辑，不依赖 DSH。
+export * from './case/schema.ts'
+export * from './case/load.ts'
+export * from './game/clock.ts'
+export * from './game/events.ts'
+export * from './game/state.ts'
+export * from './game/effects.ts'
+export * from './game/scoring.ts'
+export * from './game/mentions.ts'
+export * from './game/projections.ts'
+export * from './game/log.ts'
+export * from './game/game.ts'
